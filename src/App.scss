@@ -1,0 +1,21 @@
+@import "node_modules/vanilla-framework";
+@include vanilla;
+
+.u-no-border-bottom {
+  border-bottom: none;
+}
+
+.top-purple {
+  border-top: 3px solid #ae86a6;
+}
+
+.card-post {
+  display: flex !important;
+  flex-direction: column;
+
+  .p-card__content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+}
